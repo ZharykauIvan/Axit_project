@@ -1,0 +1,58 @@
+.banner2 {
+  background-image: url(../assets/images/sity.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+  width: 100%;
+}
+.section-header__title-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1170px;
+  height: 150px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-header__line-white {
+  margin: 0 auto 50px auto;
+  height: 1px;
+  width: 170px;
+  background-color: #ffffff;
+}
+.section-header__subtitle-white {
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-bottom: 73px;
+}
+.banner2__button-footer {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  min-width: 370px;
+  min-height: 58px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.banner2__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

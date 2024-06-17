@@ -1,0 +1,32 @@
+.main-header {
+  background-color: rgba(0, 0, 0, 1);
+}
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-header__conteiner {
+  max-width: 1224.61px;
+}
+.main-header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header__navigation-list {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  list-style-type: none;
+}
+a {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}

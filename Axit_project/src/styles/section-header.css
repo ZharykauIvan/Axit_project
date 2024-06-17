@@ -1,0 +1,18 @@
+.section-header__title {
+   text-transform: uppercase;
+  max-width: 1170px;
+    padding: 75px 0px 75px  0px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.section-header__line {
+  margin: 0 auto 50px auto;
+  height: 1px;
+  max-width: 170px;
+  background-color: rgba(236, 121, 121, 1);
+}
+.section-header__subtitle {
+  color: #86878b;
+  text-align: center;
+}

@@ -1,0 +1,90 @@
+.tabs {
+  padding-top: 109px;
+}
+.tabs__button--active {
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: 2px solid rgba(198, 203, 205, 1);
+  cursor: pointer;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  text-transform: uppercase;
+  position: relative;
+  top: 2px;
+  z-index: 1px;
+}
+.tabs__button {
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tabs__content {
+  display: flex;
+}
+.tabs__content-text {
+  border: 2px solid rgba(198, 203, 205, 1);
+  border-right: none;
+}
+.tabs__content-title {
+  padding: 30px 30px 27px 100px;
+  width: 570px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+}
+.tabs__content-discription {
+  display: flex;
+  align-items: center;
+  padding: 27px 30px 27px 100px;
+  text-align: justify;
+  line-height: 30px;
+  width: 570px;
+  height: 210px;
+}
+.tabs_content-button {
+  background: #ec7979;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 27px 330px 54px 100px;
+  width: 270px;
+  height: 58px;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-link active{
+  /* border-width: none; */
+  /* position: relative;
+  top: 3px;
+  z-index: 2px;
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: 2px solid rgba(198, 203, 205, 1);
+  cursor: pointer;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  text-transform: uppercase;
+  position: relative;
+  top: 2px;
+  z-index: 1px; */
+}
+#home-tab{
+  position: relative;
+  top: 2px;
+  z-index: 1px;
+}
+#profile-tab{
+  position: relative;
+  top: 2px;
+  z-index: 1px;
+}
+#contact-tab{
+  position: relative;
+  top: 2px;
+  z-index: 1px;
+}

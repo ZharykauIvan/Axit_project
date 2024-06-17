@@ -1,0 +1,49 @@
+.contact {
+  padding-bottom: 50px;
+}
+.contact__form {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.contact__form-authorization {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #bdbdbd;
+}
+.contact__form-authorization-name {
+  color: #bdbdbd;
+}
+.contact__form-authorization-functional {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 560px;
+}
+.contact__form-authorization-button {
+  position: absolute;
+  top: 100%;
+  left: 33%;
+}
+.contact__form-authorization-button-content {
+  background: #ec7979;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  margin: 27px 330px 54px 100px;
+  width: 270px;
+  height: 58px;
+  cursor: pointer;
+}
+.contact__form-textarea {
+}
+.contact__form-textarea-name {
+  display: flex;
+  color: #bdbdbd;
+}
+.contact__form-textarea-functional {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 450px;
+}
